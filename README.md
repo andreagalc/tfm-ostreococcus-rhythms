@@ -14,7 +14,7 @@ The aim of the analysis is to identify and characterize rhythmic protein abundan
   - Rhythmicity analysis with the RAIN algorithm
   - Visualization: boxplots, PCA, dendrograms, and Venn diagrams
 
-## 📊 Input data (not included here)
+##  Input data (not included here)
 
 To run this script, place the following files in your working directory:
 - `report.pg_matrix_SD.tsv`: raw SWATH-MS data for SD conditions
