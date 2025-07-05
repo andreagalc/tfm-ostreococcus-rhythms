@@ -197,7 +197,7 @@ bp <- barplot(data.proteins.sd, lwd=3, names.arg = "",cex.names = 2,cex.axis = 1
               xlab="",ylim=c(0,4500)) #178 445
 
 legend("topright",
-       inset = c(-2.2, 0),  # mueve hacia fuera del margen derecho
+       inset = c(-2.6, 0.2),  # mueve hacia fuera del margen derecho
        legend = c("Non rhythmic", "Rhythmic SD"),
        fill = c("white", "red"),
        border = "black",
@@ -433,7 +433,7 @@ bp <- barplot(data.proteins.ld, lwd=3, names.arg = "",cex.names = 2,cex.axis = 1
         xlab="",ylim=c(0,4500)) #178 445
 
 legend("topright",
-       inset = c(-2.2, 0),  # mueve hacia fuera del margen derecho
+       inset = c(-2.6, 0.2),  # mueve hacia fuera del margen derecho
        legend = c("Non rhythmic", "Rhythmic LD"),
        fill = c("white", "blue"),
        border = "black",
