@@ -194,7 +194,7 @@ bp <- barplot(data.proteins.sd, lwd=3, names.arg = "",cex.names = 2,cex.axis = 1
               font.axis=2,
               ylab = "Number of Proteins", 
               cex.lab = 1.6, 
-              xlab="",ylim=c(0,3500)) #178 445
+              xlab="",ylim=c(0,4500)) #178 445
 
 legend("topright",
        inset = c(-2.2, 0),  # mueve hacia fuera del margen derecho
@@ -430,7 +430,7 @@ bp <- barplot(data.proteins.ld, lwd=3, names.arg = "",cex.names = 2,cex.axis = 1
         font.axis=2,
         ylab = "Number of Proteins", 
         cex.lab = 1.6, 
-        xlab="",ylim=c(0,3500)) #178 445
+        xlab="",ylim=c(0,4500)) #178 445
 
 legend("topright",
        inset = c(-2.2, 0),  # mueve hacia fuera del margen derecho
